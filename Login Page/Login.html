@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Login-Register Page
+        </title>
+        <link rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <div class="main">
+            <div class="form-box">
+                <div class="btn-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+
+                <h5>Sign in with:</h5>
+
+                <div class="icons">
+                    <img src="./images/fb.jfif">
+                    <img src="./images/mai.jfif">
+                    <img src="./images/twitter.jfif">
+                    <img src="./images/git.jfif">
+                </div>
+
+                <h5>(or)</h5>
+
+                <br/>
+
+                <form id="login" class="input-grp">
+                    <input type="text" class="input-field" placeholder="Email or Username" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"> <span> Remember Password</span>
+                    <button class="forget-btn">Forgot Password?</button> 
+                    <button type="submit" class="submit-btn">Log In</button> 
+                    <br/>
+                    <h6>Not a member? </h6> <button class="reg-btn" onclick="register()">Register</button>
+                </form>
+                <form id="register" class="input-grp">
+                    <input type="text" class="input-field" placeholder="Username" required>
+                    <input type="email" class="input-field" placeholder="Email" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="password" class="input-field" placeholder="Repeat Password" required>
+                    <input type="checkbox" class="check-box"> <span class="span"> I agree to the terms & conditions</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+                
+
+            </div>
+        </div>
+        <script>
+            var x = document.getElementById("login")
+            var y = document.getElementById("register")
+            var z = document.getElementById("btn")
+
+            function register(){
+                x.style.left="-400px";
+                y.style.left="30px";
+                z.style.left= "110px";
+            }
+
+            function login(){
+                x.style.left="40px";
+                y.style.left="450px";
+                z.style.left= "0";
+            }
+        </script>
+    </body>
+</html>
