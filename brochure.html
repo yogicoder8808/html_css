@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop Website</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="Sub-header">
+    <nav>
+        <a href="website.html"><img src="Images/bg1.jfif"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="website.html">HOME</a></li>
+                <li><a href="brochure.html">BROCHURE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>BROCHURE</h1>
+</section>
+
+
+<!-- BROCHURE -->
+
+<section class="brochure">
+    <h1>PET'S COLLECTIONS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, totam optio. Recusandae praesentium repellendus quae illo sint, id error, <br>ipsum culpa quis quo cumque quidem!</p>
+
+    <div class="row">
+        <div class="pet-col">
+            <h3>PUPPY'S</h3>
+            <img src="Images/latest/dog.avif">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consequatur. Cum mollitia 
+            iusto reprehenderit laborum, itaque debitis molestiae eligendi quas!</p>
+        </div>
+        <div class="pet-col">
+            <h3>KITTEN'S</h3>
+            <img src="Images/cat3.jfif">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat itaque earum error 
+            voluptas sapiente doloribus iure perferendis sequi modi? Suscipit sit est consequatur amet!</p>
+        </div>
+        <div class="pet-col">
+            <h3>BIRDS'</h3>
+            <img src="Images/bird.jfif">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus veniam quia alias iste 
+            laudantium, delectus adipisci ullam, quae dicta soluta magnam hic? Sapiente, magni sit 
+            fuga officiis porro dolore.</p>
+        </div>
+</div>
+</section>
+
+<!-- Facilities -->
+
+<section class="facility">
+    <h1>OUR FACILITIES</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eligendi laborum accusamus animi nulla facere voluptatum, 
+    cumque dignissimos non nobis, atque veniam minus <br> iusto repellat, debitis tempora laboriosam earum. Laudantium, quos provident? 
+    Omnis ullam itaque a qui vero, molestias distinctio?</p>
+    <div class="row">
+        <div class="facility-col">
+            <img src="Images/latest/care13.jpg">
+            <h3>VETERINARY CARE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam, iusto maxime ex odit neque.</p>
+        </div>
+        <div class="facility-col">
+            <img src="Images/latest/store.webp">
+            <h3>PET'S MART</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam, iusto maxime ex odit neque.</p>
+        </div>
+        <div class="facility-col">
+            <img src="Images/latest/resort2.jpg">
+            <h3>PET'S RESORT</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam, iusto maxime ex odit neque.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio ipsum assumenda 
+        aperiam architecto itaque modi aspernatur quo eos at debitis, <br> rerum quae repellendus 
+        vero facere cumque illum corrupti voluptate id amet dolore iusto, nihil veniam corporis. 
+        Necessitatibus, fugiat. Quo?
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-envelope" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop Website</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="Sub-header">
+    <nav>
+        <a href="website.html"><img src="Images/bg1.jfif"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="website.html">HOME</a></li>
+                <li><a href="brochure.html">BROCHURE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><i class="fa fa-search"></i></li>
+            </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>CONTACT US</h1>
+</section>
+
+<!-- Contact Us -->
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home" ></i>
+                <span>
+                    <h5>XY Road, ABC Buildings</h5>
+                    <p>Texas, USA</p>
+                </span>
+            </div>
+        
+            <div>
+                <i class="fa fa-phone" ></i>
+                <span>
+                    <h5>+1 1234567890</h5>
+                    <p>Monday to Sunday, 24 hours </p>
+                </span>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope-o" ></i>
+                <span>
+                    <h5>petlove@petshop.com</h5>
+                    <p>Email us for your query</p>
+                </span>
+            </div>
+        </div>
+
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="email" placeholder="Enter email address" required>
+                <input type="text" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="main-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio ipsum assumenda 
+        aperiam architecto itaque modi aspernatur quo eos at debitis, <br> rerum quae repellendus 
+        vero facere cumque illum corrupti voluptate id amet dolore iusto, nihil veniam corporis. 
+        Necessitatibus, fugiat. Quo?
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-envelope" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+</body>
+</html>

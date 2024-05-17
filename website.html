@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop Website</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="website.html"><img src="Images/bg1.jfif"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="website.html">HOME</a></li>
+                <li><a href="brochure.html">BROCHURE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+                <li><i class="fa fa-search " ></i></li>
+            </ul>
+        </div> 
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-header">
+        <h1>WORLD'S LARGEST PET SHOP</h1> 
+    </div>
+    <br><br>
+    
+    <!-------Slider------>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="Images/latest/clinic2.png" >
+          <div class="text">24/7 SUPPORT</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="Images/latest/food2.jpg" >
+          <div class="text">LARGEST PET MART</div>
+        </div>
+      
+        <div class="mySlides fade">
+        <img src="Images/latest/resort8.webp" >      
+          <div class="text">PET CARE TAKERS</div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+<div class="text-box">
+    <a href="" class="main-btn">Visit Us To Know More</a>
+</div>
+
+  <div class="radio">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+</section>
+
+<!-- BROCHURE -->
+
+<section class="brochure">
+    <h1>PET'S COLLECTIONS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, totam optio. Recusandae praesentium repellendus quae illo sint, id error, <br>ipsum culpa quis quo cumque quidem!</p>
+
+    <div class="row">
+        <div class="pet-col">
+            <h3>PUPPY'S</h3>
+            <img src="Images/latest/dog.avif">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consequatur. Cum mollitia 
+            iusto reprehenderit laborum, itaque debitis molestiae eligendi quas!</p>
+        </div>
+        <div class="pet-col">
+            <h3>KITTEN'S</h3>
+            <img src="Images/cat3.jfif">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, placeat itaque earum error 
+            voluptas sapiente doloribus iure perferendis sequi modi? Suscipit sit est consequatur amet!</p>
+        </div>
+        <div class="pet-col">
+            <h3>BIRDS'</h3>
+            <img src="Images/bird.jfif">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio accusamus veniam quia alias iste 
+            laudantium, delectus adipisci ullam, quae dicta soluta magnam hic? Sapiente, magni sit 
+            fuga officiis porro dolore.</p>
+        </div>
+</div>
+</section>
+
+<!-- Facilities -->
+
+<section class="facility">
+    <h1>OUR FACILITIES</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eligendi laborum accusamus animi nulla facere voluptatum, 
+    cumque dignissimos non nobis, atque veniam minus <br> iusto repellat, debitis tempora laboriosam earum. Laudantium, quos provident? 
+    Omnis ullam itaque a qui vero, molestias distinctio?</p>
+    <div class="row">
+        <div class="facility-col col1" >
+            <img src="Images/latest/care13.jpg">
+            <h3 >VETERINARY CARE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam, iusto maxime ex odit neque.</p>
+        </div>
+        <div class="facility-col">
+            <img src="Images/latest/store.webp">
+            <h3>PET'S MART</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam, iusto maxime ex odit neque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit minus beatae, quae 
+            hic voluptates consequatur animi ipsam rerum. Odio, error.</p>
+        </div>
+        <div class="facility-col">
+            <img src="Images/latest/resort2.jpg">
+            <h3>PET'S RESORT</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ullam, iusto maxime ex odit neque.</p>
+        </div>
+    </div>
+</section>
+
+<!-- testimonials -->
+
+<section class="testimonials">
+    <h1>OUR CUSTOMER SAYS</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur porro necessitatibus 
+    assumenda ullam accusantium molestiae <br> possimus beatae esse! Repellat similique eius corporis, minus ipsa saepe.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="Images/user1.avif">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit est libero 
+                voluptatum eos quasi laudantium ullam saepe quo amet aliquam dolores, quisquam 
+                molestias reiciendis magni aut esse. Laboriosam, incidunt ipsum.</p>
+                <h3>Martin Jr</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </div>
+        </div>
+
+        <div class="testimonial-col">
+            <img src="Images/user8.webp">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit est libero 
+                voluptatum eos quasi laudantium ullam saepe quo amet aliquam dolores, quisquam 
+                molestias reiciendis magni aut esse. Laboriosam, incidunt ipsum.</p>
+                <h3>Lora Christina</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call To Action -->
+
+<section class="action">
+    <h1>Buy Your Beloved Pets from Anywhere<br> in the World </h1>
+    <a href="" class="main-btn">CONTACT US</a>
+</section>
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio ipsum assumenda 
+        aperiam architecto itaque modi aspernatur quo eos at debitis, <br> rerum quae repellendus 
+        vero facere cumque illum corrupti voluptate id amet dolore iusto, nihil veniam corporis. 
+        Necessitatibus, fugiat. Quo?
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-envelope" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+</section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
